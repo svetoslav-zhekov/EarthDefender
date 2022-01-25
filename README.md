@@ -3,7 +3,7 @@ EarthDefender is a simple personal project JS game which I decided to make as a 
 
 Link to the game: [https://svetoslav-zhekov.github.io/EarthDefender/](https://svetoslav-zhekov.github.io/EarthDefender/)
 
-This site was built using [GitHub Pages](https://pages.github.com/).
+This site is hosted using [GitHub Pages](https://pages.github.com/).
 
 
 # Screenshots:
