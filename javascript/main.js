@@ -192,10 +192,15 @@ window.onload = function()
                 enemies.splice(index, 1);
                 score++;
                 //With Every Score, Increase Difficulty (If Statement Stops It From Going To Negative Values)
-                if (difficulty > 100) 
+                if (difficulty >= 1000) 
                 {
-                    difficulty = difficulty - 100; //Removes 100 MillSeconds (Decreases Time For Enemies To Spawn)
+                    difficulty -= 100; //Removes 100 MillSeconds (Decreases Time For Enemies To Spawn)
                 }
+                else if(difficulty >= 250)
+                {
+                    difficulty -= 50; //Removes 50 MillSeconds (Decreases Time For Enemies To Spawn)
+                }
+                console.log(difficulty);
                 //Restart Enemy Spawn Interval
                 StopEnemyInterval();
                 StartEnemyInterval(difficulty);
