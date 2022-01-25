@@ -1,5 +1,5 @@
 # EarthDefender
-EarthDefender is a personal project coursework JS game, the goal of it is to stop the meteors hitting Earth, this is achieved by moving the Moon around with the mouse and colliding with the meteors.
+EarthDefender is a simple personal project JS game which I decided to make as a coursework, the goal of it is to stop the meteors hitting Earth, this is achieved by moving the Moon around with the mouse and colliding with the meteors.
 
 Link to the game: [https://svetoslav-zhekov.github.io/EarthDefender/](https://svetoslav-zhekov.github.io/EarthDefender/)
 
