@@ -30,6 +30,14 @@ var sounds = [
     document.getElementById("sound2")
 ];
 
+//Lower Volume Of Music/Sounds
+songs.forEach((song) => {
+    song.volume = 0.5;
+});
+sounds.forEach((sound) => {
+    sound.volume = 0.5;
+});
+
 //Score Set Up / Difficulty Set Up
 ctx.font = "30px Arial";
 ctx.fillStyle = "cyan";
