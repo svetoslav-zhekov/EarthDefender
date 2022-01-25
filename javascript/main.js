@@ -200,7 +200,6 @@ window.onload = function()
                 {
                     difficulty -= 50; //Removes 50 MillSeconds (Decreases Time For Enemies To Spawn)
                 }
-                console.log(difficulty);
                 //Restart Enemy Spawn Interval
                 StopEnemyInterval();
                 StartEnemyInterval(difficulty);
@@ -218,5 +217,5 @@ window.onload = function()
         earth.RedrawBase();
         moon.RedrawPlayer(playerX, playerY); 
 
-    }, 100/30);
+    }, 10/30);
 }
