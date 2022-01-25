@@ -183,8 +183,11 @@ window.onload = function()
                 PlaySound();
                 enemies.splice(index, 1);
                 score++;
-                //With Every Score, Increase Difficulty
-                difficulty = difficulty - 100; //Removes 100 MillSeconds (Decreases Time For Enemies To Spawn)
+                //With Every Score, Increase Difficulty (If Statement Stops It From Going To Negative Values)
+                if (difficulty > 100) 
+                {
+                    difficulty = difficulty - 100; //Removes 100 MillSeconds (Decreases Time For Enemies To Spawn)
+                }
                 //Restart Enemy Spawn Interval
                 StopEnemyInterval();
                 StartEnemyInterval(difficulty);
