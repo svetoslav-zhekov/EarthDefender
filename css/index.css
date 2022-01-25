@@ -1,6 +1,6 @@
 /*Background Image Set Up*/
 html {
-    background-image: url("/resources/images/background.jpg");
+    background-image: url("./resources/images/background.jpg");
     background-color: black;
     background-position: center;
     background-size: cover;

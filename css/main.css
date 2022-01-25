@@ -4,7 +4,7 @@ body {
 
 /*Set Background-Image And Fill Browser Space*/
 canvas {
-    background-image: url("/resources/images/background.jpg");
+    background-image: url("./resources/images/background.jpg");
     background-color: black;
     background-position: center;
     background-size: cover;
