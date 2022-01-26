@@ -23,7 +23,7 @@ h1 {
 }
 
 /*Style The New Game Button*/
-a.new_game {
+button {
     text-decoration: none;
     color: initial;
     background-color: #5643fd;
@@ -31,7 +31,8 @@ a.new_game {
     color: white;
 }
 
-a.new_game:hover {
+button:hover {
     background-color: #0c164f;
     color: white;
+    cursor: pointer;
 }
