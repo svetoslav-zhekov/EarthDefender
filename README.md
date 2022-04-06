@@ -12,3 +12,5 @@ This site is hosted using [GitHub Pages](https://pages.github.com/).
 
 # Languages used
 * JavaScript
+* HTML
+* CSS
