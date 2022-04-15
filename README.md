@@ -1,5 +1,5 @@
 # Before forking this repo (PLEASE READ!)
-All the images, videos and logos in this project are with illustrative purposes only, they cannot be used, adapted, copied or published without their creator's permission.
+All the images, videos, sounds, music and logos in this project are with illustrative purposes only, they cannot be used, adapted, copied or published without their creator's permission.
 
 # EarthDefender
 EarthDefender is a simple personal project JS game which I decided to make as a coursework, the goal of it is to stop the meteors hitting Earth, this is achieved by moving the Moon around with the mouse and colliding with the meteors.
